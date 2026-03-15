@@ -5,7 +5,7 @@ type Component =
     | { type: "motor"; speed: number }
     | null;
 
-function getComponentInfo(component: any): string {
+function getComponentInfo(component: Component): string {
     if (typeof component === "string") {
         return `Component ID: ${component}`;
     }
