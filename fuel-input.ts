@@ -1,8 +1,8 @@
-const fuelForm = document.getElementById("fuelForm") as HTMLFormElement;
+const form = document.getElementById("fuelForm") as HTMLFormElement;
 const fuelInput = document.getElementById("fuelInput") as HTMLInputElement;
 const message = document.getElementById("message") as HTMLParagraphElement;
 
-fuelForm.addEventListener("submit", (event: SubmitEvent) => {
+form.addEventListener("submit", (event: Event) => {
     event.preventDefault();
 
     const fuelValue = Number(fuelInput.value);
