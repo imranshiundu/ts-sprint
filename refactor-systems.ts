@@ -17,12 +17,12 @@ const crewMember1: CrewMember = {
 };
 
 const sensorReading1: SensorReading = {
-    type: "Temperature",
+    type: "temperature",
     value: 25,
     isCritical: false,
 };
 
 const sensorReading2: SensorReading = {
-    type: "Radiation",
+    type: "radiation",
     value: 150,
 };

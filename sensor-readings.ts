@@ -3,7 +3,7 @@ const sensorReading1: {
     value: number;
     isCritical?: boolean;
 } = {
-    type: "Temperature",
+    type: "temperature",
     value: 25,
     isCritical: false,
 };
@@ -13,6 +13,6 @@ const sensorReading2: {
     value: number;
     isCritical?: boolean;
 } = {
-    type: "Radiation",
+    type: "radiation",
     value: 150,
 };
