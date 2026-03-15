@@ -24,4 +24,4 @@ const warpDrive: WarpDrive = {
     timestamp: new Date(),
 };
 
-let navigationCommand: NavigationCommand = destination;
+const navigationCommand: NavigationCommand = destination;
